@@ -29,6 +29,7 @@ def bin_exp_mod(a, n, b): # => O(n), la funcion vendria siendo lineal
 
 from collections.abc import Sequence
 
+
 def decimal_to_binary(no_of_variable: int, minterms: Sequence[float]) -> list[str]: # => O(n**2), la funcion vendria siendo cuadratica
     """
     >>> decimal_to_binary(3,[1.5])
